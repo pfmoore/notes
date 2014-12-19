@@ -81,3 +81,15 @@ To commit the new files, I did the following:
 You get a warning about CRLF conversion in ``docs/Makefile``. I'm going to
 assume this is benign, as I've never really got to grips with git's line ending
 handling.
+
+Importing into Read The Docs
+----------------------------
+
+From my Read The Docs account, I selected "Import Project", picked my github
+repos, and selected "Create" next to the notes project. I had to edit the
+project name, as "notes" is pretty general. I used "Paul Moore's Notes", which
+translated to a URL of https://readthedocs.org/projects/paul-moores-notes/ for
+the project page, and http://paul-moores-notes.readthedocs.org/en/latest/ for
+the latest version of the docs.
+
+And there it was. Easy!
