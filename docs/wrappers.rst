@@ -54,7 +54,7 @@ of APIs that deal with other forms of "executable", but they all end up needing
 an ``exe`` in the end.
 
 The fundamental Windows API for creating a new process is ``CreateProcess``. It
-takes the filename of an executable, a command line[1]_, and a few other
+takes the filename of an executable, a command line [1]_, and a few other
 parameters that don't really matter here. The filename can be omitted, if so
 the command line is parsed for the first token, which is treated as the
 filename.
@@ -126,7 +126,7 @@ people coming up with examples of issues with basically every solution I
 proposed. So the advice here is pretty well battle-tested.
 
 In the Python world, the issue of executable scripts was a huge topic of debate
-in the early days of disturtils. Even when setuptools introduced the idea of
+in the early days of distutils. Even when setuptools introduced the idea of
 console entry points, it wasn't universally accepted at first. So plenty of
 older projects still use other solutions (the ``scripts`` argument in
 distutils' ``setup()`` function). Don't hate them for it - often such projects
